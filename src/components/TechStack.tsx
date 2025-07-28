@@ -8,26 +8,26 @@ export default function TechStack() {
       category: "Frontend",
       skills: [
         { name: "React", level: 95, color: "from-blue-400 to-blue-600" },
-        { name: "Next.js", level: 90, color: "from-gray-400 to-gray-600" },
-        { name: "TypeScript", level: 88, color: "from-blue-500 to-blue-700" },
-        { name: "Tailwind CSS", level: 92, color: "from-cyan-400 to-cyan-600" },
+        { name: "Next.js", level: 95, color: "from-gray-400 to-gray-600" },
+        { name: "TypeScript", level: 95, color: "from-blue-500 to-blue-700" },
+        { name: "Tailwind CSS", level: 100, color: "from-cyan-400 to-cyan-600" },
       ],
     },
     {
       category: "Backend",
       skills: [
         { name: "Node.js", level: 90, color: "from-green-400 to-green-600" },
-        { name: "Express.js", level: 85, color: "from-gray-500 to-gray-700" },
-        { name: "MongoDB", level: 80, color: "from-green-500 to-green-700" },
-        { name: "PostgreSQL", level: 75, color: "from-blue-600 to-blue-800" },
+        { name: "Express.js", level: 95, color: "from-gray-500 to-gray-700" },
+        { name: "MongoDB", level: 90, color: "from-green-500 to-green-700" },
+        { name: "PostgreSQL", level: 90, color: "from-blue-600 to-blue-800" },
       ],
     },
     {
       category: "Mobile",
       skills: [
-        { name: "React Native", level: 88, color: "from-purple-400 to-purple-600" },
-        { name: "Expo", level: 85, color: "from-indigo-400 to-indigo-600" },
-        { name: "Flutter", level: 70, color: "from-blue-400 to-blue-600" },
+        { name: "React Native CLI", level: 95, color: "from-purple-400 to-purple-600" },
+        { name: "Expo", level: 95, color: "from-indigo-400 to-indigo-600" },
+        { name: "Flutter", level: 80, color: "from-blue-400 to-blue-600" },
       ],
     },
     {

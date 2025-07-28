@@ -5,10 +5,10 @@ import { Card, CardContent } from "@/components/ui/card"
 
 export default function About() {
   const stats = [
-    { icon: Code, label: "Projects Completed", value: "150+" },
-    { icon: Users, label: "Happy Clients", value: "80+" },
+    { icon: Code, label: "Projects Completed", value: "100+" },
+    { icon: Users, label: "Happy Clients", value: "10+" },
     { icon: Rocket, label: "Years Experience", value: "6+" },
-    { icon: Award, label: "Awards Won", value: "12" },
+    // { icon: Award, label: "Awards Won", value: "12" },
   ]
 
   return (
@@ -57,7 +57,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
           {stats.map((stat, index) => (
             <Card
               key={index}

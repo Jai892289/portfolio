@@ -16,25 +16,25 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Jaideep Gupta Developer - Full Stack Developer & Blockchain Expert",
   description:
-    "Portfolio of John Developer - Full Stack Developer with 6+ years experience in React, Next.js, Node.js, React Native, and Blockchain development.",
+    "Portfolio of Jaideep Developer - Full Stack Developer with 6+ years experience in React, Next.js, Node.js, React Native, and Blockchain development.",
   keywords: "Full Stack Developer, React, Next.js, Node.js, React Native, Blockchain, Solidity, Web3, Portfolio",
-  authors: [{ name: "John Developer" }],
-  creator: "John Developer",
+  authors: [{ name: "Jaideep Gupta Developer" }],
+  creator: "Jaideep Gupta Developer",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://johndeveloper.com",
-    title: "John Developer - Full Stack Developer & Blockchain Expert",
+    url: "https://portfolio-amber-alpha-91.vercel.app/",
+    title: "Jaideep Gupta Developer - Full Stack Developer & Blockchain Expert",
     description:
-      "Portfolio of John Developer - Full Stack Developer with 6+ years experience in React, Next.js, Node.js, React Native, and Blockchain development.",
-    siteName: "John Developer Portfolio",
+      "Portfolio of Jaideep Developer - Full Stack Developer with 6+ years experience in React, Next.js, Node.js, React Native, and Blockchain development.",
+    siteName: "Jaideep Developer Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "John Developer - Full Stack Developer & Blockchain Expert",
+    title: "Jaideep Developer - Full Stack Developer & Blockchain Expert",
     description:
-      "Portfolio of John Developer - Full Stack Developer with 6+ years experience in React, Next.js, Node.js, React Native, and Blockchain development.",
-    creator: "@johndeveloper",
+      "Portfolio of Jaideep Developer - Full Stack Developer with 6+ years experience in React, Next.js, Node.js, React Native, and Blockchain development.",
+    creator: "@jaideep_dev",
   },
   robots: {
     index: true,

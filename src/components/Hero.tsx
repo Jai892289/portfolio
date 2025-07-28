@@ -78,20 +78,20 @@ export default function Hero() {
         </div>
 
         <div className="flex justify-center space-x-6 mb-12">
-          <a href="https://github.com" className="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+          <a href="https://github.com/Jai892289" className="text-gray-400 hover:text-purple-400 transition-colors duration-300">
             <Github size={24} />
           </a>
-          <a href="https://linkedin.com" className="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+          <a href="https://www.linkedin.com/in/jaideep-gupta-8a2823100/" className="text-gray-400 hover:text-purple-400 transition-colors duration-300">
             <Linkedin size={24} />
           </a>
           <a
-            href="mailto:john@example.com"
+            href="mailto:jgupta324@gmail.com"
             className="text-gray-400 hover:text-purple-400 transition-colors duration-300"
           >
             <Mail size={24} />
           </a>
           <a
-            href="https://wa.me/1234567890"
+            href="https://wa.me/7366042663"
             className="text-gray-400 hover:text-purple-400 transition-colors duration-300"
           >
             <MessageCircle size={24} />

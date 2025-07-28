@@ -21,11 +21,13 @@ export default function Contact() {
     e.preventDefault()
     // Handle form submission here
     console.log("Form submitted:", formData)
+    alert("Thank you for reaching out! I'll get back to you soon.")
+    setFormData({ name: "", email: "", subject: "", message: "" }) 
   }
 
   const handleWhatsApp = () => {
-    const message = encodeURIComponent("Hi John! I'd like to discuss a project with you.")
-    window.open(`https://wa.me/1234567890?text=${message}`, "_blank")
+    const message = encodeURIComponent("Hi Jaideep! I'd like to discuss a project with you.")
+    window.open(`https://wa.me/7366042663?text=${message}`, "_blank")
   }
 
   return (
@@ -59,7 +61,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">Email</h4>
-                  <p className="text-gray-400">john.developer@email.com</p>
+                  <p className="text-gray-400">jgupta324@email.com</p>
                 </div>
               </div>
 
@@ -69,7 +71,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">WhatsApp</h4>
-                  <p className="text-gray-400">+1 (555) 123-4567</p>
+                  <p className="text-gray-400">+91-7366042663</p>
                 </div>
               </div>
 
@@ -79,7 +81,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">Phone</h4>
-                  <p className="text-gray-400">+1 (555) 123-4567</p>
+                  <p className="text-gray-400">+91-7366042663</p>
                 </div>
               </div>
 
@@ -89,14 +91,14 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">Location</h4>
-                  <p className="text-gray-400">San Francisco, CA</p>
+                  <p className="text-gray-400">Lucknow, India</p>
                 </div>
               </div>
             </div>
 
             <Button
               onClick={handleWhatsApp}
-              className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105"
+              className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 cursor-pointer rounded-full font-semibold transition-all duration-300 transform hover:scale-105"
             >
               <MessageCircle className="w-5 h-5 mr-2" />
               Chat on WhatsApp
