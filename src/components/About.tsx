@@ -38,7 +38,7 @@ export default function About() {
           </div>
 
           <div className="space-y-6">
-            <h3 className="text-2xl font-bold text-white mb-4">Hello! I'm John Developer</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">Hello! I'm Jaideep Developer</h3>
             <p className="text-gray-300 leading-relaxed">
               With over 6 years of experience in full-stack development, I specialize in creating robust, scalable
               applications using cutting-edge technologies. My journey began with traditional web development and
